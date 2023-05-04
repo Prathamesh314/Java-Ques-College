@@ -14,5 +14,6 @@ public class Main {
         int tout1[] = { 17, 40, 20 };
         emp[0].add_attendence();
         emp[0].display();
+
     }
 }
