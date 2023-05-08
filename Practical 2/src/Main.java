@@ -10,8 +10,6 @@ public class Main {
         Employee emp[] = new Employee[3];
         // Person 1
         emp[0] = new Employee("Prathamesh", 948, 19, 5000, "Head of Department");
-        int tin1[] = { 10, 12, 20 };
-        int tout1[] = { 17, 40, 20 };
         emp[0].add_attendence();
         emp[0].display();
 
