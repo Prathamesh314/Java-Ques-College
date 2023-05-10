@@ -10,30 +10,7 @@ public class Time {
         minutes = m;
         second = s;
     }
-    void add(Time t1,Time t2){
-        second += t1.second + t2.second;
-        int carry;
-        if(second>=60){
-            carry = second/60;
-            second = second%60;
-        }
-        else{
-            carry = 0;
-        }
-        minutes += t1.minutes + t2.minutes + carry;
-        if(minutes >= 60){
-            carry = minutes/60;
-            minutes = minutes%60;
-        }
-        else{
-            carry = 0;
-        }
-        hour += t1.hour + t2.hour + carry;
-        day = hour/24;
-        hour=hour%24;
-
-    }
-
+    
     void test(Time obj[]){
         int carry;
         int n = obj.length%3;
