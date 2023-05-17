@@ -18,7 +18,5 @@ public class Main {
         System.out.print(sa.balance);
         fd.updateInterest();
         System.out.print(fd.balance);
-
-
     }
 }

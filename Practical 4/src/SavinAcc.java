@@ -1,6 +1,6 @@
 import java.lang.reflect.AccessibleObject;
 
-public class SavinAcc extends BankAcc implements Debitable
+public class SavinAcc extends BankAcc
 {
     static int Acc_no = 11001;
     SavinAcc(){
