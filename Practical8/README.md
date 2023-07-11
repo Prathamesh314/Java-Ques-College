@@ -3,6 +3,6 @@
 <img src="images/Problem-statement.png" />
 
 
-#### Output
+## Output
 
 <img src="images/output.png" />
